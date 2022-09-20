@@ -36,3 +36,29 @@ td {
   background: #eee;
   padding: 10px;
 }
+
+
+
+
+Lesson 3 examples
+
+.speacialHeader {
+  background: orange;
+}
+
+#specialHeader {
+  font size: 100px;
+}
+
+#accounts {
+  font-style:italic;
+}
+
+h2.speacialHeader {
+  color:orange;
+}
+
+.specialHeader {
+  background:orange;
+}
+
