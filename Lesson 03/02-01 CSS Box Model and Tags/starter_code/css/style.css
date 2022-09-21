@@ -115,6 +115,20 @@ a {
   width: 474x;
 }
 
+.relaxr-corestyles p.featureBox {
+  font-style:italic;
+  font: size 30px;
+}
+
+.relaxr-corestyles em {
+  font-style:italic
+}
+
+.relaxr-corestyles strong {
+  font-weight: bolder;
+}
+
+
 
 /* Footer */
 .pageFooter {
