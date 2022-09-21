@@ -40,14 +40,14 @@ td {
 
 
 
-Lesson 3 examples
+
 
 .speacialHeader {
   background: orange;
 }
 
 #specialHeader {
-  font size: 100px;
+  font-size: 100;
 }
 
 #accounts {
