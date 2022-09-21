@@ -7,6 +7,10 @@ body {
     background: #f6f6f6;
     }
 
+nav {
+    margin-left: 100px;
+    }
+
 .shadowbox {
     width: 12em;
     border: 1px solid #333;
