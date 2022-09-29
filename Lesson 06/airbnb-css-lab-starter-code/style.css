@@ -122,4 +122,18 @@ h1, h2, h3, h4, h5, h6 {
 .airBnB-locals-note {
   background: white;
   border: 1px solid #dbdbdb;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: center;
+}
+
+.airBnB-locals-note h1 {
+  background: #efefef;
+  padding: 10px;
+  font-size: 14px;
+  grid-column: span 2;
+}
+
+.airBnB-locals-note img{
+  margin: 10px;
 }
