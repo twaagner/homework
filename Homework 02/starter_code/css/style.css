@@ -24,7 +24,25 @@ p {
 
       
 /* Header and Navigation */
+.site_header{
+  background: black;
+  border-bottom: 10px solid #f2ff00;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
 
+.site_header h1{
+  font-size: 34px;
+  font-family: 'Merriweather', serif;
+  font-style: capitalize;
+  }
+
+.site_nav ul{
+  display: flex;
+  justify-content: flex-end;
+
+}
 
 /* Colors */ 
 /* Dark yellow: #f2ff00 */
