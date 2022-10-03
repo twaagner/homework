@@ -4,6 +4,7 @@
 
 html, body{
   height: 100%;
+  line-height: 1.15;
   font-family: 'lato', sans-serif;
 }
 
@@ -23,26 +24,97 @@ p {
         .lato { font-family: 'Lato', sans-serif; }
 
       
-/* Header and Navigation */
-.site_header{
-  background: black;
-  border-bottom: 10px solid #f2ff00;  
+/* ///////////  Header and Navigation /////////// */
+/* ///////////  Header and Navigation /////////// */
+
+.site_header {
+  background-color: #000;
+  border-bottom: 5px solid #f2ff00;
+  padding: 10px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
   }
 
-.site_header h1{
+.site_header h1 {
   font-size: 34px;
+  padding: 15px 05px 0;
   font-family: 'Merriweather', serif;
   font-style: capitalize;
   }
 
-.site_nav ul{
-  display: flex;
-  justify-content: flex-end;
+  .site_header h1,
+  .site_header h1 a,
+  .site_header h1 a:visited {
+    color: #f2ff00;
+    text-decoration: none;
+  }
 
+.site_nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding: 15px 0;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
 }
+
+.site_nav li {
+  display: list-item;
+  list-style: none;
+  font-size: 20px;
+  padding-left: 15px;
+}
+
+
+.site_nav li,
+.site_nav li a,
+.site_nav li a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site_nav li a:hover { 
+  color: #f2ff00;
+  }
+
+
+.main-nav-item-featured {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* ////////////////// */
+/* //aside section///*/
+/* //////////////// */
+
+.secondarytext {
+  background:#adadad;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  font-family: 'lato', sans-serif;
+}
+
+.secondarytext p {
+  font-size: 28px;
+}
+
+.underline {
+  border-bottom:3px solid #f2ff00;
+} 
+
+/* /////////////////// */
+/* // hero section // */
+/* ///////////////// */
+
+.hero-section {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg) center center no-repeat;
+  
+}
+
 
 /* Colors */ 
 /* Dark yellow: #f2ff00 */

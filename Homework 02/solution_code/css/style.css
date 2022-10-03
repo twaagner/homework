@@ -3,6 +3,7 @@
 /* ################################################## */
 html, body {
   height: 100%;
+  line-height: 1.15;
   font-family: 'Lato', sans-serif;
 }
 
@@ -40,11 +41,12 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .site_header h1 {
   font-size: 32px;
-/*   padding: 15px 05px 0; */
+  padding: 15px 05px 0;
   text-transform: capitalize;
   font-family: 'Merriweather', serif;
 }
@@ -69,7 +71,7 @@ p {
 
 /* How come there is no float here? */
 .main-nav li {
-
+  
   padding-left: 15px;
 }
 
