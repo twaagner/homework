@@ -51,7 +51,7 @@ p {
     text-decoration: none;
   }
 
-.site_nav ul {
+  .site-nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -61,11 +61,10 @@ p {
     margin: 0;
 }
 
-.site_nav li {
-  display: list-item;
-  list-style: none;
-  font-size: 20px;
-  padding-left: 15px;
+.site_nav li{
+
+    list-style: none;
+    font-size: 20 px;
 }
 
 
@@ -112,15 +111,78 @@ p {
 
 .hero-section {
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg) center center no-repeat;
-  
+  background-size: cover;
+  display: flex;
+  min-height: 60%;
+  justify-content:flex-end;  
+  align-items: center;
 }
 
+.hero-section h2 {
+  font-weight: 800;
+}
 
-/* Colors */ 
-/* Dark yellow: #f2ff00 */
-/* Lighter yellow: #ffd900 */
-/* Light gray: #adadad */
-/* Medium gray: #878787 */
+.inset-div {
+  background-color: rgba(225,225,225,.9);
+  padding: 25px;
+  width: 380px;
+  height: 230px;
+  padding: 4%;
+  box-shadow: 0 0 5px rgba(0,0,0,.75);
+  margin-right: 25px;
+}
 
-/* Background Image */
-/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */
+.main-cta {
+  background-color: #f2ff00 ;
+  border-bottom:2px solid #ffd900 ;
+}
+
+.cta {
+  border-radius: 5px;
+  color: #000;
+  display: block;
+  font-size: 24px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* //////////////////// */
+/* ///three columns//// */
+/* //////////////////// */
+
+.three-wide {
+  display: flex;
+  justify-content: center;
+}
+
+.featured-block h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+}
+
+.featured-block .cta {
+  background-color: #adadad;
+  border-bottom: 2px solid #878787;
+}
+
+.third-container {
+  border-right: 1px solid lightgray;
+  margin: 10px 0;
+  padding: 2%;
+}
+
+.third-container:last-child {
+  border-right: none;
+}
+
+/* /////////////////// */
+/* //////foooter////// */
+
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 25px;
+}
