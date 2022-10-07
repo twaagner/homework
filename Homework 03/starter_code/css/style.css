@@ -15,7 +15,14 @@ html {
 .mainNav{
     background-color: #32b64c;
     color: white;
+    height: 40px;
     display: flex;
     justify-content: space-between;
+}
+
+
+.truliaLogo{
+    min-width: 80%;
+    padding:10px 5px;
 }
 
