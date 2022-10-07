@@ -11,6 +11,22 @@ console.log(addFour(-1));
 console.log(addFour(37));
 
 
+
+// is param a number
+function amIANumber(myParam){
+    if(typeof myParam == 'number'){
+        return true
+    }else{
+        return false;
+    }
+
+}
+
+console.log(amIANumber(addFour(66));
+console.log(amIANumber("three's a good number"));
+console.log(amIANumber('Gouda is a good"good" word'));
+
+
 function addFour(myValue) {
     let outputNumber = myValue + 4;
     return outputNumber;
@@ -29,6 +45,12 @@ console.log(squaredNumber(4))
 console.log(squaredNumber(7))
 
 
+function squared(numberTosquare){
+
+    let numberTosquare = numberTosquare*numberTosquare;
+    // or
+    return numberTosquare * numberTosquare;            
+}
 // tuesday revisit //
 function squared(inputNumber) {
     let outputNumber = inputNumber * inputNumber;
@@ -55,6 +77,9 @@ console.log(stringLength("This is a longer string."))
 
 // tuesday revisit //
 function stringLength(yarn){
+
+    let theOutput= yarn.length;
+// or
     return yarn.length;
 }
 
@@ -87,6 +112,8 @@ console.log(addNumbers(6, 3));
 function sayHello(name){
     return "Hello, " + name;
 }
+// or
+    
 
 console.log(sayHello('Travis'))
 console.log(sayHello('Mr Milo Sir'))
