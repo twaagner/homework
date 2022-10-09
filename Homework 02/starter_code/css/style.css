@@ -54,26 +54,27 @@ p {
   .site-nav ul {
     list-style: none;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: flex-end;
     font-size: 20px;
     padding: 15px 0;
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
 
+
 .site_nav li{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     list-style: none;
     font-size: 20 px;
-}
-
+} 
 
 .site_nav li,
 .site_nav li a,
 .site_nav li a:visited {
   color: #fff;
   text-decoration: none;
+  display: flex;
 }
 
 .site_nav li a:hover { 
