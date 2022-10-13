@@ -13,7 +13,7 @@
         moodvalue = moodvalue.toLowerCase().trim();
 
         // if the user inputs excited / ecstatic / fantastic change the CSS class to 'excited'
-        if(moodvalue == 'excited' || moodvalue =='ecstatic'|| moodvalu =='fantastic'){
+        if(moodvalue == 'excited' || moodvalue =='ecstatic'|| moodvalue =='fantastic'){
              document.querySelector('moodring div').setAttribute('class','excited')
         }
 
