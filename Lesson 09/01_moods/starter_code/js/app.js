@@ -18,7 +18,7 @@
         }
 
         // if the user inputs happy/good/great change the CSS class to 'happy'
-        if(moodvalue == 'happy' || moodvalue =='good'|| moodvalu =='great'){
+        if(moodvalue == 'happy' || moodvalue =='good'|| moodvalue =='great'){
             document.querySelector('moodring div').setAttribute('class','happy')
        }
  
