@@ -279,19 +279,19 @@ a {
 
 }
 
-@media screen and (min-width:1600px) {
+@media screen and (min-width: 1600px) {
   .trulia-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
-@media screen and (min-width:1200px) and (max-width:1599px) {
+@media screen and (min-width: 1200px) and (max-width:1599px) {
   .trulia-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .trulia-grid {
     grid-template-columns: 1fr 1fr;
   }

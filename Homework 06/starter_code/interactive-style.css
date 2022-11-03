@@ -13,7 +13,7 @@
 }
 
 .trulia-featured-grid-item .trulia-house-image{
-    height: 80%;
+    height: 85%;
 }
 
 .trulia-featured-grid-item .trulia-house-facts {
@@ -38,6 +38,7 @@
     min-width: 300px;
 }
 
+/* ask about how to move price over to left hand side */
 .trulia-featured-grid-item .trulia-house-price h1 {
     font-size: 30px;
 }
@@ -46,4 +47,9 @@
     flex:2;
     font-size: 16px;
     font-weight: bold;
+}
+
+.trulia-featured-grid-item .trulia-article-icon{
+    height: 30px;
+    padding: 0px 10px 0px 0px;
 }

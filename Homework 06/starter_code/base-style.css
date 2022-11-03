@@ -217,6 +217,23 @@ a {
 
 }
 
+@media screen and(min-width: 1600px) {
+  .trulia-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width:1200px) and (max-width: 1599px){
+  .trulia-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .trulia-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 .trulia-grid-item {
   background-color: white;
@@ -320,7 +337,7 @@ a {
 }
 
 .trulia-house-facts {
-  display: flex;
+  display: flex; 
   justify-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
