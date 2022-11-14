@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 
-    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,300,400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap" rel="stylesheet">
@@ -61,28 +61,40 @@
 
 </head>
 
+
 <body>
 
 <header class="tw-nav">
     <nav class="nav-left">
         <a href="#" class="nav-item-left">
-         <img src=" " alt="Travis Waagner" class="tw-logo">
+            <img src=" " alt="Travis Waagner" class="tw-logo">
         </a>
        
     </nav>
 
     <nav class="nav-right">
-        <ul>
-            <a href='#' class='nav-item-right'>Work</a>
-        </ul>
-        <ul>
-            <a href='#' class='nav-item-right'>About</a>
-        </ul>
-        <ul>
-            <a href='#' class='nav-item-right'>Contact</a>
+        <ul class="nav-mobilehide">
+            <li><a href='#' class='nav-item-right'>Work</a></li>
+            <li><a href='#' class='nav-item-right'>About</a></li>
+            <li><a href='#' class='nav-item-right'>Contact</a></li>
         </ul>
     </nav>
+
 </header>
+
+
+
+<section id="about">
+    <div class="mini-bio">
+        <h1>Travis</h1>
+        <h1>Waagner</h1>
+        <h2>Travis Waagner is a Front-End Developer and Designer based in Florida. He is currently studying at General Assembly, and doing freelance Design for clients in  Northeast Florida.</h2>
+    </div>
+    <div class='about-image-container'>
+        <img src="./travportrait.jpg" alt='Travis' class="selfportrait">
+    </div>
+</section>
+
 
 
 
