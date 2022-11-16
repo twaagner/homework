@@ -8,13 +8,15 @@
 
     <!-- link css sheets, fonts here -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,300,400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap" rel="stylesheet">
+
+
 
     <!-- Primary Meta Tags -->
     <title>Travis Waagner</title>
@@ -63,11 +65,12 @@
 
 
 <body>
+<main></main>
 
 <header class="tw-nav">
     <nav class="nav-left">
         <a href="#" class="nav-item-left">
-            <img src=" " alt="Travis Waagner" class="tw-logo">
+            <img src="./images/logo.svg" alt="Travis Waagner" class="tw-logo">
         </a>
        
     </nav>
@@ -84,18 +87,32 @@
 
 
 
-<section id="about">
-    <div class="mini-bio">
-        <h1>Travis</h1>
-        <h1>Waagner</h1>
-        <h2>Travis Waagner is a Front-End Developer and Designer based in Florida. He is currently studying at General Assembly, and doing freelance Design for clients in  Northeast Florida.</h2>
+<section id="responsive-about">
+
+    <div class="about-item"></div>
+        <article class="bio-col">
+            <div class="bio-title">
+                <h1>Travis</h1>
+                <h1>Waagner</h1>
+            </div>
+            <div class='bio-desc'>
+                <h2>Travis Waagner is a Front-End Developer and Designer based in Florida. He is currently studying at <a href='https://generalassemb.ly/education/front-end-web-development'>General Assembly</a>, and doing freelance Design for clients in Northeast Florida.</h2>
+            </div>
+        </article>
     </div>
-    <div class='about-image-container'>
-        <img src="./travportrait.jpg" alt='Travis' class="selfportrait">
+    <div class="about-item">
+        <article class="bio-col">
+            <div class='about-image'>
+                <img src="./images/travportrait.jpg"  alt='Travis' class="selfportrait">
+            </div>
+        </article>
     </div>
 </section>
 
 
+
+
+    
 
 
 
@@ -112,3 +129,4 @@
 
 
 </body>
+</html>
