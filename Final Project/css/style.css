@@ -18,17 +18,19 @@ body {
 
 
 
-a {
+a, a:focus{
     color: black;
     text-decoration: none;
     font-size: 22px; 
     -webkit-transition: color .25s ease-in; 
+    outline: none;
  } 
 
 a:hover{
     color: #ff4d00;
     text-decoration: none;
 }
+
 
 
 
@@ -39,7 +41,7 @@ a:hover{
     align-items: center;
     justify-content: space-between;
     height: 100px;
-    margin: 0 20px;
+    margin: 0 30px;
 }
    
 .nav-left {
@@ -54,20 +56,24 @@ a:hover{
     padding: 0%;
 }
 
-.nav-right li {
+.nav-right li  {
     display: inline-block; 
     margin-left: 80px; 
-    overflow: hidden;
+    
+    
 }
 
 .tw-logo {
     min-width: 200px;
 }
 
-/* /////////////////  MAIN SECTION   ///////////////////////////////*/
 
+
+
+/* main section */
 
 /* styles */
+
 .responsive-about h1 { 
     font-family: 'Chivo', sans-serif;;
     color: #0f0450;
@@ -89,8 +95,7 @@ a:hover{
 }
 
 
-/* content layout */
-
+/* content container */
 .main-content{
     display: grid;
     gap: 30px;
@@ -105,13 +110,16 @@ a:hover{
     overflow: hidden;
 } 
 
+
+
+/* .responsive-about  section*/
+
 .responsive-about {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     min-height: 70vh; 
     min-height: calc(100vh - 100px);
-    
     align-items:center;
     gap: 30px;
     overflow: hidden;
@@ -133,3 +141,23 @@ a:hover{
     overflow: hidden;
     position: relative;
 }
+
+@media only screen and (max-width: 960px) {
+    .responsive-about {
+        display:block;
+        
+    }
+    
+    .about-item{
+        width: 100%;
+    
+    }
+    
+    .about-image{
+        display: none;
+    }
+} 
+
+
+/* work section */
+

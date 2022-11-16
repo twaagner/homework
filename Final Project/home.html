@@ -7,15 +7,17 @@
 
 
     <!-- link css sheets, fonts here -->
-
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    
 
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,300,400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap" rel="stylesheet">
-
+    
 
 
     <!-- Primary Meta Tags -->
@@ -77,8 +79,8 @@
 
     <nav class="nav-right">
         <ul class="nav-mobilehide">
-            <li><a href='#' class='nav-item-right'>Work</a></li>
             <li><a href='#' class='nav-item-right'>About</a></li>
+            <li><a href='#' class='nav-item-right'>Work</a></li>
             <li><a href='#' class='nav-item-right'>Contact</a></li>
         </ul>
     </nav>
@@ -86,11 +88,11 @@
 </header>
 
 <!------------------ Start main content container here ------------->
-<!-- even margins all the way down the page ------------------------>
+<!-- ------------even margins all the way down the page -------------->
 <main>
 
     <div class="main-content contentContainer">
-        <section class="responsive-about">
+        <section class="responsive-about" id="about">
             <div class="about-item">
                 <article class="bio">
                     <div class="bio-title">
@@ -98,7 +100,7 @@
                         <h1>Waagner</h1>
                     </div>
                     <div class='bio-desc'>
-                        <h2>Travis Waagner is a Front-End Developer and Designer based in Florida. He is currently studying at <a href='https://generalassemb.ly/education/front-end-web-development'>General Assembly</a>, and doing freelance Design for clients in Northeast Florida.</h2>
+                        <h2>Travis Waagner is a Front-End Developer and Designer based in Florida. He is currently studying at <a href='https://generalassemb.ly/education/front-end-web-development'>General Assembly</a>, and doing freelance Design for clients in Northeast Florida. All while making a mean cup of coffee at Bold Bean Coffee Roasters.</h2>
                     </div>
                 </article>
             </div>
@@ -106,10 +108,20 @@
 
         <section class="responsive-about">
             
-                <div class='about-image'>
-                        <img src="./images/travportrait.jpg"  alt='Travis' class="selfportrait">
+                <div class='about-item about-image'>
+                    <img src="./images/travportrait.jpg"  alt='Travis' class="selfportrait">
                 </div>
             
+        </section>    <!-- end about section -->
+        
+
+        <section id="work" class="work">
+         
+
+
+
+
+
         </section>
 
 
@@ -141,5 +153,9 @@
 
 
 </main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html>
