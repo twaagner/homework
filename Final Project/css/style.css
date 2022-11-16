@@ -14,9 +14,6 @@ html {
 
 body {
     background-color: #FFFCF1;
-    margin: 0px 40px 0px 40px;
-    min-height: 100%;
-    overflow-x: hidden;
 }
 
 
@@ -34,25 +31,21 @@ a:hover{
 
 
 
-/*  header and navigation */
-
-
+/******************************** NAVIGATION and HEADER*******************************/
 
 .tw-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
+    margin: 0 20px;
 }
    
-
-
 .nav-left {
     display: flex;
     justify-content: flex-start; 
     align-items: center;
 
-   
 }
 
 .nav-right ul{
@@ -70,19 +63,11 @@ a:hover{
     min-width: 200px;
 }
 
-/* /////////////////  body / main section    ///////////////////////////////*/
+/* /////////////////  MAIN SECTION   ///////////////////////////////*/
 
-#about {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    min-height: 70vh; 
-    align-items:center;
-    margin: 0 auto;
-    gap: 30px;
-}
 
-#responsive-about h1 { 
+/* styles */
+.responsive-about h1 { 
     font-family: 'Chivo', sans-serif;;
     color: #0f0450;
     font-size: 120px;
@@ -90,24 +75,60 @@ a:hover{
     line-height: 15px;
 }
 
-#responsive-about h2 {
+.responsive-about h2 {
     color: black;
     font-family:'General Sans', sans-serif;
     font-size:28px;
     font-weight: 400;
 }
 
-#responsive-about a {
+.responsive-about a {
     font-size: 28px;
     text-decoration: underline;
 }
 
 
+/* content layout */
 
+.main-content{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+
+.contentContainer {
+    max-width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+} 
+
+.responsive-about {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    min-height: 70vh; 
+    min-height: calc(100vh - 100px);
+    
+    align-items:center;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.responsive-about img{
+    max-width: 100%;
+}
 
 .selfportrait {
     background-size: cover;
     position:relative; 
     border-radius: 50%;
 
+}
+
+.about-image{
+    display: block;
+    overflow: hidden;
+    position: relative;
 }
